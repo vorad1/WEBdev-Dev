@@ -1,0 +1,210 @@
+
+header{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/scubamain1.jpg)        
+}
+
+body{
+    background-color: #588BAE; 
+    background-blend-mode: hue;
+}
+
+h1{
+    color: white;
+    font-family: monospace;
+    padding-top: 60px;
+    padding-right: 120px;
+    padding-left: 40px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+
+heading{
+    
+    font-family: fantasy;
+    color: yellowgreen;
+}
+
+subtitle{
+  
+    font-family: serif;
+    color: black;
+}
+
+para{
+   font-family: cursive;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.img-container {
+  float:left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: grey;
+  color: yellow;
+}
+
+.menu li:hover {
+  background-color: #ffffff;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    
+  padding-top: 2.5rem;
+}
+
+.box_item1{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items:flex-start; 
+    justify-content:flex-start;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/fins.jpg);
+    background-size: cover;
+    color: cyan;
+    padding: 20px;  
+}
+
+.box_item1:hover{
+    font-size: 0;   
+}
+
+.box_item1:hover:after{
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    color: red;
+} 
+
+.box_item2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items:flex-start; 
+    justify-content:flex-start;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/bt.png);
+    background-size: cover;
+    color: cyan;
+    padding: 20px;  
+}
+
+.box_item2:hover{
+    font-size: 0;   
+}
+
+.box_item2:hover:after{
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    color: red;
+} 
+
+.tr{
+    width: 100%;
+}
+
+.td{
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+}
+
+.form{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+}
+
+
+
+
